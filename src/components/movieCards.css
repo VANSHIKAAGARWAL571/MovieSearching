@@ -1,0 +1,52 @@
+
+.movielist{
+    margin-top: 4rem;
+  }
+  
+  .cards{
+    display: flex;
+    border: 1px solid #ccc;
+    margin-bottom: 2rem;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+    border-radius: 10px;
+  }
+  .cards-content {
+    flex-grow: 1;
+  }
+  
+  
+  .cards-title{
+    margin-bottom: 0.5rem;
+    font-size: 3.2rem;
+    margin: 0;
+  }
+  .cards-image{
+      max-width: 200px; 
+      height: auto; 
+      margin-right: 10px;
+  
+  }
+  .cards-description {
+    margin: 5px 0;
+  }
+ 
+  
+  @media screen and (max-width: 768px) {
+    .cards {
+      flex-direction: column; 
+      padding: 10px; 
+    }
+  
+    .cards-image {
+      max-width: 100%; 
+      margin-right: 0; 
+    }
+    .cards-title {
+      font-size: 2.4rem; 
+    }
+  }
+  
+  
